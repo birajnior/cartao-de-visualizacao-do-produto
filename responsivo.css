@@ -1,0 +1,46 @@
+@media only screen and (max-width: 650px) {
+    body {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 370px;
+        height: 680px;
+        border-radius: 15px;
+    }
+
+    .img-desktop {
+        display: block;
+        margin: 0 auto;
+        width: 370px;
+        height: 300px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .txt {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 25px;
+        align-content: center;
+        padding: 0 0 35px 35px;
+    }
+
+    .titulo {
+        width: 250px;
+    }
+
+    .txt-s {
+        width: 290px;
+    }
+
+    .btn {
+        width: 290px;
+        height: 40px;
+    }
+}

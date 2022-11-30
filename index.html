@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="responsivo.css">
+
+    <title>Cartão de Visualização de Produto</title>
+</head>
+<body>
+    <main class="conteudo">
+        <!-- <div>
+
+            <img src="images/image-product-desktop.jpg" class="img" alt="Perfume Chanel">
+            <img src="images/image-product-mobile.jpg" class="img2" alt="Perfume Chanel">
+        </div> -->
+
+        <section class="conteudo">
+            <picture>
+                <source media="(max-width: 650px)" srcset="images/produto-mobile.png" type="image/png" alt="Perfume Chanel">
+                <img src="images/produto-desktop.png"  class="img-desktop" alt="Perfume Chanel">
+            </picture>
+
+            <div class="txt">                
+                <p class="txt-p">Perfume</p><br>
+                <table><td class="titulo">Gabrielle Essence Eau De Parfum</td></table><br>
+                <p class="txt-s">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p><br>
+                 <p class="valor"><strong>$149.99</strong> <del>$169.99</del></p><br>
+                <button class="btn"><img src="images/icon-cart.svg"> Add to Cart</button>
+            </div>
+        </section>
+        
+    </main>
+</body>
+</html>
